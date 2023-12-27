@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <style>
+         div{
+            width: 1000px;
+            margin: auto;
+            padding: 50px;
+            background-color: antiquewhite;
+            border-radius: 0.5rem;
+        }
+        label{
+            width: 150px;
+            display: inline-block;
+        }
+        textarea{
+            vertical-align: middle;
+        }
+        button{
+            border: none;
+            background-color: brown;
+            color: antiquewhite;
+            padding: 10px;
+           
+            border-radius: 1rem;
+        }
+    </style>
+    <div>
+        <form action="">
+            <h2>Register Here</h2>
+            <label for="">Full Name:</label>
+            <input type="text" placeholder="First Name">         
+            <input type="text" placeholder="Last Name"><br>
+            <span>firstname</span> <span>lastname</span><br>
+            
+            <label for="">Address:</label>
+            <input type="text" placeholder="Street address"><br>
+            <input type="text" placeholder="Street address line 2" style="margin-left: 155px; width: 250px;" >
+            <input type="text" placeholder="city">
+            <input type="text" placeholder="State">
+            <input type="number" placeholder="Pin code">
+            <select name="" id="">
+                <option value="">Please select</option>
+                <option value="">INDIA</option>
+                <option value="">UAE</option>
+                <option value="">USA</option>
+            </select><br><br>
+
+            <label for="">Phone Number:</label>
+            <input type="number" placeholder="Area code">
+            <input type="number" placeholder="Phone Number">
+            <br><br>
+
+            <label for="">Mobile:</label>
+            <input type="number" placeholder="Phone Number"><br><br>
+
+            <label for="">Email:</label>
+            <input type="email" placeholder="Enter Email" required><br><br>
+
+            <label for="">Cover Letter:</label>
+            <textarea name="" id="" cols="50" rows="5" placeholder="Describe yourself in brief(max 450 characters)"></textarea><br><br>
+
+            <label for="">Resume:</label>
+            <input type="file"><br><br>
+
+            <label for=""><b>Declaration:</b></label>
+            <input type="checkbox">The above information filled by me is true.I also accept all the terms and conditions <br><br>
+
+            <button type="submit">Submit Here</button>
+            <button type="submit">Reset Button</button>
+
+        </form>
+    </div>
+</body>
+</html>
